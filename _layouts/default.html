@@ -22,15 +22,32 @@
 			<div class="jumbotron text-center bg-lightblue" style="margin-bottom:0;">
 			  <h1 style="font-family: Sophia;font-size: 100px;color:#193554;" >Random Stuff</h1>
 			</div>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/gallery">Gallery</a></li>
-				<li><a href="/project">Project</a></li>
-				<li><a href="/about">About</a></li>
-			</ul>
+			<!-- Nav Bar -->
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+			    <ul class="navbar-nav text-center">
+			      <li class="nav-item">
+				<a class="nav-link" href="/">Home</a>
+			      </li>
+			      <li class="nav-item">
+				<a class="nav-link" href="/blog">Blog</a>
+			      </li>
+			      <li class="nav-item">
+				<a class="nav-link" href="/gallery">Gallery</a>
+			      </li>
+			      <li class="nav-item">
+				<a class="nav-link" href="/project">Project</a>
+			      </li>
+			      <li class="nav-item">
+				<a class="nav-link" href="/about">About</a>
+			      </li>
+			    </ul>
+			  </div>  
 			</nav>
+			
 			<div class="container">
 			
 			{{ content }}
