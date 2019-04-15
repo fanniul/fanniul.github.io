@@ -1,3 +1,14 @@
+/* Colors */
+.bg-darknavy {
+	background-color: #193554;
+}
+.bg-blue {
+	background-color: #4273a9;
+}
+.bg-lightblue {
+	background-color: #8fb2da;
+}
+
 /* Fonts */
 @font-face {
     font-family: Sophia;	
